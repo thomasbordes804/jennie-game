@@ -1,0 +1,18 @@
+/* Animations for Blob Pop — referenced by Blob Pop.dc.html */
+html, body { margin: 0; height: 100%; }
+body { background: #efe7fa; font-family: 'Quicksand', sans-serif; color: #3d2e55; overflow: hidden; }
+a { color: #7c4dbe; } a:hover { color: #5e35a1; }
+
+@keyframes popIn { 0% { transform: scale(0) translateY(24px); } 65% { transform: scale(1.18); } 100% { transform: scale(1) translateY(0); } }
+@keyframes wobble { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+@keyframes squish { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.06, .94); } }
+@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+@keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes catBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes legSwing { 0%, 100% { transform: rotate(22deg); } 50% { transform: rotate(-22deg); } }
+@keyframes tailSway { 0%, 100% { transform: rotate(24deg); } 50% { transform: rotate(58deg); } }
+@keyframes tailTip { 0%, 100% { transform: rotate(10deg); } 50% { transform: rotate(-34deg); } }
+@keyframes blink { 0%, 91%, 100% { transform: scaleY(1); } 94% { transform: scaleY(.08); } }
+@keyframes earTwitch { 0%, 88%, 100% { transform: rotate(-38deg); } 92% { transform: rotate(-16deg); } 96% { transform: rotate(-38deg); } }
+@keyframes groomBob { 0%, 100% { transform: rotate(0) translate(0, 0); } 50% { transform: rotate(16deg) translate(4px, 5px); } }
+@keyframes zzz { 0% { transform: translateY(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(-18px); opacity: 0; } }
